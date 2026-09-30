@@ -1,0 +1,31 @@
+# ===== Unity 自动生成目录（不入库）=====
+UnityProject/Library/
+UnityProject/Temp/
+UnityProject/Logs/
+UnityProject/Obj/
+UnityProject/Builds/
+UnityProject/UserSettings/
+UnityProject/.utmp/
+
+# ===== 超过 GitHub 100MB 限制的生成 Atlas（可由 AnimationSources 通过 Editor 脚本重建）=====
+UnityProject/Assets/Game/Art/Characters/ZhaoYun/AnimationS/*Atlas.asset
+
+# ===== IDE / 工具临时文件 =====
+.workbuddy/
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ===== 系统文件 =====
+Thumbs.db
+Desktop.ini

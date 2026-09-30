@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="14" result="Passed" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 10:10:15Z" end-time="2026-09-30 10:10:26Z" duration="10.5376711">
+  <test-suite type="TestSuite" id="1024" name="ChangbanDemo" fullname="ChangbanDemo" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-09-30 10:10:15Z" end-time="2026-09-30 10:10:26Z" duration="10.537671" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1042" name="Changban.PlayTests.dll" fullname="E:/Desktop/codex/三国：龙胆归戈/UnityProject/Library/ScriptAssemblies/Changban.PlayTests.dll" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-09-30 10:10:15Z" end-time="2026-09-30 10:10:26Z" duration="10.532222" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="28816" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1043" name="Changban" fullname="Changban" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-09-30 10:10:15Z" end-time="2026-09-30 10:10:26Z" duration="10.531916" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1044" name="Tests" fullname="Changban.Tests" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-09-30 10:10:15Z" end-time="2026-09-30 10:10:26Z" duration="10.531671" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1025" name="ArenaCombatPlayTests" fullname="Changban.Tests.ArenaCombatPlayTests" classname="Changban.Tests.ArenaCombatPlayTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-09-30 10:10:15Z" end-time="2026-09-30 10:10:23Z" duration="8.080911" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1033" name="BreakthroughTravelsVisiblyWithSkillParticlesAndCooldown" fullname="Changban.Tests.ArenaCombatPlayTests.BreakthroughTravelsVisiblyWithSkillParticlesAndCooldown" methodname="BreakthroughTravelsVisiblyWithSkillParticlesAndCooldown" classname="Changban.Tests.ArenaCombatPlayTests" runstate="Runnable" seed="433533736" result="Passed" start-time="2026-09-30 10:10:15Z" end-time="2026-09-30 10:10:19Z" duration="3.441433" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1028" name="DodgePassesThroughEnemyWithoutPushingOrDamagingIt" fullname="Changban.Tests.ArenaCombatPlayTests.DodgePassesThroughEnemyWithoutPushingOrDamagingIt" methodname="DodgePassesThroughEnemyWithoutPushingOrDamagingIt" classname="Changban.Tests.ArenaCombatPlayTests" runstate="Runnable" seed="1252659379" result="Passed" start-time="2026-09-30 10:10:19Z" end-time="2026-09-30 10:10:19Z" duration="0.296983" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1034" name="EveryEnemyRoleShowsWarningAndAttackEffects" fullname="Changban.Tests.ArenaCombatPlayTests.EveryEnemyRoleShowsWarningAndAttackEffects" methodname="EveryEnemyRoleShowsWarningAndAttackEffects" classname="Changban.Tests.ArenaCombatPlayTests" runstate="Runnable" seed="147018296" result="Passed" start-time="2026-09-30 10:10:19Z" end-time="2026-09-30 10:10:21Z" duration="1.814149" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1027" name="ForwardThrustHitsOneEnemyOnceAndLeavesSideEnemyUntouched" fullname="Changban.Tests.ArenaCombatPlayTests.ForwardThrustHitsOneEnemyOnceAndLeavesSideEnemyUntouched" methodname="ForwardThrustHitsOneEnemyOnceAndLeavesSideEnemyUntouched" classname="Changban.Tests.ArenaCombatPlayTests" runstate="Runnable" seed="377332714" result="Passed" start-time="2026-09-30 10:10:21Z" end-time="2026-09-30 10:10:22Z" duration="0.654620" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1032" name="LungeHitsTargetsAlongItsPathWithoutDamagingSideOrRear" fullname="Changban.Tests.ArenaCombatPlayTests.LungeHitsTargetsAlongItsPathWithoutDamagingSideOrRear" methodname="LungeHitsTargetsAlongItsPathWithoutDamagingSideOrRear" classname="Changban.Tests.ArenaCombatPlayTests" runstate="Runnable" seed="442625801" result="Passed" start-time="2026-09-30 10:10:22Z" end-time="2026-09-30 10:10:22Z" duration="0.034833" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1031" name="NorthAndSouthWalkClipsRenderDifferentFrames" fullname="Changban.Tests.ArenaCombatPlayTests.NorthAndSouthWalkClipsRenderDifferentFrames" methodname="NorthAndSouthWalkClipsRenderDifferentFrames" classname="Changban.Tests.ArenaCombatPlayTests" runstate="Runnable" seed="539333400" result="Passed" start-time="2026-09-30 10:10:22Z" end-time="2026-09-30 10:10:22Z" duration="0.162037" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1030" name="PlayerHitFlashesAndEmitsImpactParticles" fullname="Changban.Tests.ArenaCombatPlayTests.PlayerHitFlashesAndEmitsImpactParticles" methodname="PlayerHitFlashesAndEmitsImpactParticles" classname="Changban.Tests.ArenaCombatPlayTests" runstate="Runnable" seed="65984455" result="Passed" start-time="2026-09-30 10:10:22Z" end-time="2026-09-30 10:10:22Z" duration="0.101268" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1026" name="PlayerIsClampedAndGroundCoversBothCameraExtremes" fullname="Changban.Tests.ArenaCombatPlayTests.PlayerIsClampedAndGroundCoversBothCameraExtremes" methodname="PlayerIsClampedAndGroundCoversBothCameraExtremes" classname="Changban.Tests.ArenaCombatPlayTests" runstate="Runnable" seed="1943108594" result="Passed" start-time="2026-09-30 10:10:22Z" end-time="2026-09-30 10:10:22Z" duration="0.078885" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1029" name="ThreeQueuedAttacksUseDistinctStatesAndDamageOncePerStep" fullname="Changban.Tests.ArenaCombatPlayTests.ThreeQueuedAttacksUseDistinctStatesAndDamageOncePerStep" methodname="ThreeQueuedAttacksUseDistinctStatesAndDamageOncePerStep" classname="Changban.Tests.ArenaCombatPlayTests" runstate="Runnable" seed="577921255" result="Passed" start-time="2026-09-30 10:10:22Z" end-time="2026-09-30 10:10:23Z" duration="1.485815" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1035" name="LevelPlayTests" fullname="Changban.Tests.LevelPlayTests" classname="Changban.Tests.LevelPlayTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-30 10:10:23Z" end-time="2026-09-30 10:10:25Z" duration="1.428787" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1037" name="NearbyMeleeEnemyWarnsThenDamagesPlayer" fullname="Changban.Tests.LevelPlayTests.NearbyMeleeEnemyWarnsThenDamagesPlayer" methodname="NearbyMeleeEnemyWarnsThenDamagesPlayer" classname="Changban.Tests.LevelPlayTests" runstate="Runnable" seed="1296967339" result="Passed" start-time="2026-09-30 10:10:23Z" end-time="2026-09-30 10:10:25Z" duration="1.266206" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1036" name="PlayerDeathPauseAndRestartResetTheScene" fullname="Changban.Tests.LevelPlayTests.PlayerDeathPauseAndRestartResetTheScene" methodname="PlayerDeathPauseAndRestartResetTheScene" classname="Changban.Tests.LevelPlayTests" runstate="Runnable" seed="1754432159" result="Passed" start-time="2026-09-30 10:10:25Z" end-time="2026-09-30 10:10:25Z" duration="0.125482" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1038" name="RescueEliteAndExitCompleteTheLevel" fullname="Changban.Tests.LevelPlayTests.RescueEliteAndExitCompleteTheLevel" methodname="RescueEliteAndExitCompleteTheLevel" classname="Changban.Tests.LevelPlayTests" runstate="Runnable" seed="1914223696" result="Passed" start-time="2026-09-30 10:10:25Z" end-time="2026-09-30 10:10:25Z" duration="0.036078" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1039" name="VisualPlayTests" fullname="Changban.Tests.VisualPlayTests" classname="Changban.Tests.VisualPlayTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-30 10:10:25Z" end-time="2026-09-30 10:10:26Z" duration="1.020910" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1041" name="CharacterClipsAndEnemyActionPoseRunInTheDemoScene" fullname="Changban.Tests.VisualPlayTests.CharacterClipsAndEnemyActionPoseRunInTheDemoScene" methodname="CharacterClipsAndEnemyActionPoseRunInTheDemoScene" classname="Changban.Tests.VisualPlayTests" runstate="Runnable" seed="153733984" result="Passed" start-time="2026-09-30 10:10:25Z" end-time="2026-09-30 10:10:25Z" duration="0.606932" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1040" name="NorthAndSouthThrustUseDirectionSpecificFrames" fullname="Changban.Tests.VisualPlayTests.NorthAndSouthThrustUseDirectionSpecificFrames" methodname="NorthAndSouthThrustUseDirectionSpecificFrames" classname="Changban.Tests.VisualPlayTests" runstate="Runnable" seed="1383019053" result="Passed" start-time="2026-09-30 10:10:25Z" end-time="2026-09-30 10:10:26Z" duration="0.413017" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+Saving results to: C:/Users/xizhongwei/AppData/LocalLow/DefaultCompany/ChangbanDemo\TestResults.xml
+Saving results to: C:/Users/xizhongwei/AppData/LocalLow/DefaultCompany/ChangbanDemo\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

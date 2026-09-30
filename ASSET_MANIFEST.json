@@ -1,0 +1,74 @@
+{
+  "assets": [
+    {
+      "path": "ArtSource/References/Changban_Target_Gameplay_Concept.png",
+      "original_filename": "exec-954c3169-1d0a-4076-aeb0-a96087cb58c4.png",
+      "status": "reference_only",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2845179,
+      "sha256": "d05502d8ae336923d2d5032ada770a20b2d069e646e8689d839b75bbde8fc8f3",
+      "edited_after_generation": false
+    },
+    {
+      "path": "ArtSource/References/ZhaoYun_Character_Reference.png",
+      "original_filename": "exec-3956f268-ff79-4987-be13-65d1075a2335.png",
+      "status": "identity_reference",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2211405,
+      "sha256": "8071fc5f6fc09c4e359529d4684447f1530d598dd26d1a13dda1e0cc3544a73f",
+      "edited_after_generation": false
+    },
+    {
+      "path": "ArtSource/Archive/ZY_Idle_Prototype_v01.png",
+      "original_filename": "exec-5468409b-141f-46f7-8d0c-62c504439ff0.png",
+      "status": "archived_not_for_import",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "bytes": 1908231,
+      "sha256": "d8150340627e47bfe46bb984cc6419907e463ed6dfdcce65d9893d086ec85657",
+      "edited_after_generation": false,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.7114664713541666
+    },
+    {
+      "path": "ArtSource/Archive/ZY_Idle_Prototype_v02.png",
+      "original_filename": "exec-1c2c9b43-ec0f-48b1-bc7c-67ab4669c039.png",
+      "status": "archived_not_for_import",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "bytes": 1940646,
+      "sha256": "9be1d3aa29ea5e8ddf3491ae1e10cfd1c111053e4c6722eb6aec571adcb41f36",
+      "edited_after_generation": false,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.7099692026774088
+    },
+    {
+      "path": "ArtSource/Prototype/ZY_Idle_SE_Prototype_v03.png",
+      "original_filename": "exec-b6da530a-6a16-4b86-825d-a7772c512703.png",
+      "status": "static_placeholder_pending_unity_validation",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "bytes": 1828351,
+      "sha256": "95bdd01b1230af128291dbc843e00bf876b5740137b1713d12da832ce25f89e5",
+      "edited_after_generation": false,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.7335224151611328
+    }
+  ]
+}

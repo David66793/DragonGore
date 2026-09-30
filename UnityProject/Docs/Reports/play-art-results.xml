@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-28 16:36:28Z" end-time="2026-09-28 16:36:31Z" duration="2.2602995">
+  <test-suite type="TestSuite" id="1013" name="ChangbanDemo" fullname="ChangbanDemo" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-28 16:36:28Z" end-time="2026-09-28 16:36:31Z" duration="2.260300" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1020" name="Changban.PlayTests.dll" fullname="E:/Desktop/codex/三国：龙胆归戈/UnityProject/Library/ScriptAssemblies/Changban.PlayTests.dll" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-28 16:36:28Z" end-time="2026-09-28 16:36:31Z" duration="2.254570" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="51760" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1021" name="Changban" fullname="Changban" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-28 16:36:28Z" end-time="2026-09-28 16:36:31Z" duration="2.254079" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1022" name="Tests" fullname="Changban.Tests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-28 16:36:28Z" end-time="2026-09-28 16:36:31Z" duration="2.253789" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1014" name="LevelPlayTests" fullname="Changban.Tests.LevelPlayTests" classname="Changban.Tests.LevelPlayTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-28 16:36:28Z" end-time="2026-09-28 16:36:30Z" duration="1.938358" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1016" name="NearbyMeleeEnemyWarnsThenDamagesPlayer" fullname="Changban.Tests.LevelPlayTests.NearbyMeleeEnemyWarnsThenDamagesPlayer" methodname="NearbyMeleeEnemyWarnsThenDamagesPlayer" classname="Changban.Tests.LevelPlayTests" runstate="Runnable" seed="1530596119" result="Passed" start-time="2026-09-28 16:36:28Z" end-time="2026-09-28 16:36:30Z" duration="1.769537" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1015" name="PlayerDeathPauseAndRestartResetTheScene" fullname="Changban.Tests.LevelPlayTests.PlayerDeathPauseAndRestartResetTheScene" methodname="PlayerDeathPauseAndRestartResetTheScene" classname="Changban.Tests.LevelPlayTests" runstate="Runnable" seed="667508856" result="Passed" start-time="2026-09-28 16:36:30Z" end-time="2026-09-28 16:36:30Z" duration="0.126238" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1017" name="RescueEliteAndExitCompleteTheLevel" fullname="Changban.Tests.LevelPlayTests.RescueEliteAndExitCompleteTheLevel" methodname="RescueEliteAndExitCompleteTheLevel" classname="Changban.Tests.LevelPlayTests" runstate="Runnable" seed="1580863606" result="Passed" start-time="2026-09-28 16:36:30Z" end-time="2026-09-28 16:36:30Z" duration="0.033563" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1018" name="VisualPlayTests" fullname="Changban.Tests.VisualPlayTests" classname="Changban.Tests.VisualPlayTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-28 16:36:30Z" end-time="2026-09-28 16:36:31Z" duration="0.314297" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1019" name="CharacterClipsAndEnemyActionPoseRunInTheDemoScene" fullname="Changban.Tests.VisualPlayTests.CharacterClipsAndEnemyActionPoseRunInTheDemoScene" methodname="CharacterClipsAndEnemyActionPoseRunInTheDemoScene" classname="Changban.Tests.VisualPlayTests" runstate="Runnable" seed="180201229" result="Passed" start-time="2026-09-28 16:36:30Z" end-time="2026-09-28 16:36:31Z" duration="0.313469" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+Saving results to: C:/Users/xizhongwei/AppData/LocalLow/DefaultCompany/ChangbanDemo\TestResults.xml
+Saving results to: C:/Users/xizhongwei/AppData/LocalLow/DefaultCompany/ChangbanDemo\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

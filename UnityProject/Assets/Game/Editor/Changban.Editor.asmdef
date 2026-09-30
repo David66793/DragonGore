@@ -1,0 +1,14 @@
+{
+  "name": "Changban.Editor",
+  "rootNamespace": "Changban.EditorTools",
+  "references": ["Changban.Game", "Unity.2D.Sprite.Editor"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

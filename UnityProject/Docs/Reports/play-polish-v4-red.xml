@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="15" result="Failed(Child)" total="15" passed="3" failed="12" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 11:56:20Z" end-time="2026-09-30 11:56:30Z" duration="10.3021623">
+  <test-suite type="TestSuite" id="1042" name="ChangbanDemo" fullname="ChangbanDemo" runstate="Runnable" testcasecount="29" result="Failed" site="Child" start-time="2026-09-30 11:56:20Z" end-time="2026-09-30 11:56:30Z" duration="10.302162" total="15" passed="3" failed="12" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1078" name="Changban.PlayTests.dll" fullname="E:/Desktop/codex/三国：龙胆归戈/UnityProject/Library/ScriptAssemblies/Changban.PlayTests.dll" runstate="Runnable" testcasecount="29" result="Failed" site="Child" start-time="2026-09-30 11:56:20Z" end-time="2026-09-30 11:56:30Z" duration="10.291818" total="15" passed="3" failed="12" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="34036" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1079" name="Changban" fullname="Changban" runstate="Runnable" testcasecount="29" result="Failed" site="Child" start-time="2026-09-30 11:56:20Z" end-time="2026-09-30 11:56:30Z" duration="10.291187" total="15" passed="3" failed="12" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1080" name="Tests" fullname="Changban.Tests" runstate="Runnable" testcasecount="29" result="Failed" site="Child" start-time="2026-09-30 11:56:20Z" end-time="2026-09-30 11:56:30Z" duration="10.290773" total="15" passed="3" failed="12" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1053" name="EnemyAttackCycleTests" fullname="Changban.Tests.EnemyAttackCycleTests" classname="Changban.Tests.EnemyAttackCycleTests" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2026-09-30 11:56:20Z" end-time="2026-09-30 11:56:29Z" duration="9.436543" total="8" passed="3" failed="5" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1057" name="ArcherReleasesOneArrowDuringOneCycle" fullname="Changban.Tests.EnemyAttackCycleTests.ArcherReleasesOneArrowDuringOneCycle" methodname="ArcherReleasesOneArrowDuringOneCycle" classname="Changban.Tests.EnemyAttackCycleTests" runstate="Runnable" seed="1739460513" result="Passed" start-time="2026-09-30 11:56:20Z" end-time="2026-09-30 11:56:23Z" duration="3.676318" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1054" name="EveryRoleKeepsOneStableWarningCue" fullname="Changban.Tests.EnemyAttackCycleTests.EveryRoleKeepsOneStableWarningCue" methodname="EveryRoleKeepsOneStableWarningCue" classname="Changban.Tests.EnemyAttackCycleTests" runstate="Runnable" seed="581566273" result="Failed" start-time="2026-09-30 11:56:23Z" end-time="2026-09-30 11:56:23Z" duration="0.120646" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Melee needs one sustained warning cue, without repeated flashes.
+  Expected: in range (1,8)
+  But was:  16
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.EnemyAttackCycleTests+<EveryRoleKeepsOneStableWarningCue>d__5.MoveNext () [0x000fb] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\EnemyAttackCycleTests.cs:63
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1055" name="EveryRoleReachesContactAfterAttackStarts" fullname="Changban.Tests.EnemyAttackCycleTests.EveryRoleReachesContactAfterAttackStarts" methodname="EveryRoleReachesContactAfterAttackStarts" classname="Changban.Tests.EnemyAttackCycleTests" runstate="Runnable" seed="938863556" result="Failed" start-time="2026-09-30 11:56:23Z" end-time="2026-09-30 11:56:24Z" duration="0.489861" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Melee must not deal damage before its contact frame.
+  Expected: 100
+  But was:  99
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.EnemyAttackCycleTests+<EveryRoleReachesContactAfterAttackStarts>d__6.MoveNext () [0x000a3] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\EnemyAttackCycleTests.cs:82
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1056" name="MeleeAndEliteDamageOnlyOnceAcrossTheirAttackAndRecovery" fullname="Changban.Tests.EnemyAttackCycleTests.MeleeAndEliteDamageOnlyOnceAcrossTheirAttackAndRecovery" methodname="MeleeAndEliteDamageOnlyOnceAcrossTheirAttackAndRecovery" classname="Changban.Tests.EnemyAttackCycleTests" runstate="Runnable" seed="1658104916" result="Passed" start-time="2026-09-30 11:56:24Z" end-time="2026-09-30 11:56:25Z" duration="1.423240" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1061" name="PausedWindupFreezesAndDeadEnemiesNeverReachContact" fullname="Changban.Tests.EnemyAttackCycleTests.PausedWindupFreezesAndDeadEnemiesNeverReachContact" methodname="PausedWindupFreezesAndDeadEnemiesNeverReachContact" classname="Changban.Tests.EnemyAttackCycleTests" runstate="Runnable" seed="1028822636" result="Passed" start-time="2026-09-30 11:56:25Z" end-time="2026-09-30 11:56:28Z" duration="2.285092" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1059" name="RecoveryPoseBeginsWhenBrainFinishesAttack" fullname="Changban.Tests.EnemyAttackCycleTests.RecoveryPoseBeginsWhenBrainFinishesAttack" methodname="RecoveryPoseBeginsWhenBrainFinishesAttack" classname="Changban.Tests.EnemyAttackCycleTests" runstate="Runnable" seed="1791089018" result="Failed" start-time="2026-09-30 11:56:28Z" end-time="2026-09-30 11:56:28Z" duration="0.604209" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Recovery must not be extended by a separate VFX strike timer.
+  Expected: False
+  But was:  True
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.EnemyAttackCycleTests+<RecoveryPoseBeginsWhenBrainFinishesAttack>d__10.MoveNext () [0x00090] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\EnemyAttackCycleTests.cs:170
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1060" name="ShortRecoveryReturnsToIdleBeforeAnotherWarning" fullname="Changban.Tests.EnemyAttackCycleTests.ShortRecoveryReturnsToIdleBeforeAnotherWarning" methodname="ShortRecoveryReturnsToIdleBeforeAnotherWarning" classname="Changban.Tests.EnemyAttackCycleTests" runstate="Runnable" seed="190113543" result="Failed" start-time="2026-09-30 11:56:28Z" end-time="2026-09-30 11:56:29Z" duration="0.784407" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  The cooldown should give an idle beat before the next warning.
+  Expected: Approach
+  But was:  Warning
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.EnemyAttackCycleTests+<ShortRecoveryReturnsToIdleBeforeAnotherWarning>d__11.MoveNext () [0x000f8] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\EnemyAttackCycleTests.cs:188
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1058" name="WarningLocksDirectionAndMovingBehindAvoidsMeleeHit" fullname="Changban.Tests.EnemyAttackCycleTests.WarningLocksDirectionAndMovingBehindAvoidsMeleeHit" methodname="WarningLocksDirectionAndMovingBehindAvoidsMeleeHit" classname="Changban.Tests.EnemyAttackCycleTests" runstate="Runnable" seed="584416754" result="Failed" start-time="2026-09-30 11:56:29Z" end-time="2026-09-30 11:56:29Z" duration="0.040586" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  An already telegraphed attack must keep its direction when the player circles behind.
+  Expected: greater than 0.999000013f
+  But was:  -1.0f
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.EnemyAttackCycleTests+<WarningLocksDirectionAndMovingBehindAvoidsMeleeHit>d__9.MoveNext () [0x000f1] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\EnemyAttackCycleTests.cs:155
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1062" name="FinisherParticlesPlayTests" fullname="Changban.Tests.FinisherParticlesPlayTests" classname="Changban.Tests.FinisherParticlesPlayTests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-09-30 11:56:29Z" end-time="2026-09-30 11:56:29Z" duration="0.156595" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1066" name="DeathClearsFinisherAndPreventsAnotherBurst" fullname="Changban.Tests.FinisherParticlesPlayTests.DeathClearsFinisherAndPreventsAnotherBurst" methodname="DeathClearsFinisherAndPreventsAnotherBurst" classname="Changban.Tests.FinisherParticlesPlayTests" runstate="Runnable" seed="1631042451" result="Failed" start-time="2026-09-30 11:56:29Z" end-time="2026-09-30 11:56:29Z" duration="0.033598" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[SetUp :   The third J attack needs its own short spear-tip wind burst, separate from L.
+  Expected: not null
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.FinisherParticlesPlayTests+<SetUp>d__4.MoveNext () [0x00111] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\FinisherParticlesPlayTests.cs:30
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1065" name="DodgeCancelsFinisherWithoutContinuingItsBurst" fullname="Changban.Tests.FinisherParticlesPlayTests.DodgeCancelsFinisherWithoutContinuingItsBurst" methodname="DodgeCancelsFinisherWithoutContinuingItsBurst" classname="Changban.Tests.FinisherParticlesPlayTests" runstate="Runnable" seed="327711825" result="Failed" start-time="2026-09-30 11:56:29Z" end-time="2026-09-30 11:56:29Z" duration="0.030756" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[SetUp :   The third J attack needs its own short spear-tip wind burst, separate from L.
+  Expected: not null
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.FinisherParticlesPlayTests+<SetUp>d__4.MoveNext () [0x00111] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\FinisherParticlesPlayTests.cs:30
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1063" name="EmptyThirdStrikeEmitsAtActiveFrameAndLeavesBriefRecoveryAfterglow" fullname="Changban.Tests.FinisherParticlesPlayTests.EmptyThirdStrikeEmitsAtActiveFrameAndLeavesBriefRecoveryAfterglow" methodname="EmptyThirdStrikeEmitsAtActiveFrameAndLeavesBriefRecoveryAfterglow" classname="Changban.Tests.FinisherParticlesPlayTests" runstate="Runnable" seed="2145050118" result="Failed" start-time="2026-09-30 11:56:29Z" end-time="2026-09-30 11:56:29Z" duration="0.030137" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[SetUp :   The third J attack needs its own short spear-tip wind burst, separate from L.
+  Expected: not null
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.FinisherParticlesPlayTests+<SetUp>d__4.MoveNext () [0x00111] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\FinisherParticlesPlayTests.cs:30
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1067" name="FinisherFollowsGivenDirectionAndDoesNotFollowLaterPlayerMovement" fullname="Changban.Tests.FinisherParticlesPlayTests.FinisherFollowsGivenDirectionAndDoesNotFollowLaterPlayerMovement" methodname="FinisherFollowsGivenDirectionAndDoesNotFollowLaterPlayerMovement" classname="Changban.Tests.FinisherParticlesPlayTests" runstate="Runnable" seed="443493609" result="Failed" start-time="2026-09-30 11:56:29Z" end-time="2026-09-30 11:56:29Z" duration="0.030927" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[SetUp :   The third J attack needs its own short spear-tip wind burst, separate from L.
+  Expected: not null
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.FinisherParticlesPlayTests+<SetUp>d__4.MoveNext () [0x00111] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\FinisherParticlesPlayTests.cs:30
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1064" name="PauseFreezesFinisherParticlesUntilResume" fullname="Changban.Tests.FinisherParticlesPlayTests.PauseFreezesFinisherParticlesUntilResume" methodname="PauseFreezesFinisherParticlesUntilResume" classname="Changban.Tests.FinisherParticlesPlayTests" runstate="Runnable" seed="1577048037" result="Failed" start-time="2026-09-30 11:56:29Z" end-time="2026-09-30 11:56:29Z" duration="0.029850" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[SetUp :   The third J attack needs its own short spear-tip wind burst, separate from L.
+  Expected: not null
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.FinisherParticlesPlayTests+<SetUp>d__4.MoveNext () [0x00111] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\FinisherParticlesPlayTests.cs:30
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1072" name="PlayerLocomotionPolishTests" fullname="Changban.Tests.PlayerLocomotionPolishTests" classname="Changban.Tests.PlayerLocomotionPolishTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-30 11:56:29Z" end-time="2026-09-30 11:56:30Z" duration="0.695810" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1074" name="HorizontalRunningAlternatesSixFramesAndWaitsBeforeIdle" fullname="Changban.Tests.PlayerLocomotionPolishTests.HorizontalRunningAlternatesSixFramesAndWaitsBeforeIdle" methodname="HorizontalRunningAlternatesSixFramesAndWaitsBeforeIdle" classname="Changban.Tests.PlayerLocomotionPolishTests" runstate="Runnable" seed="1758609723" result="Failed" start-time="2026-09-30 11:56:29Z" end-time="2026-09-30 11:56:30Z" duration="0.660251" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Run must have six separate alternating-leg poses.
+  Expected: 6
+  But was:  0
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.PlayerLocomotionPolishTests+<HorizontalRunningAlternatesSixFramesAndWaitsBeforeIdle>d__3.MoveNext () [0x00180] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\PlayerLocomotionPolishTests.cs:81
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1073" name="IdleShadowStaysBetweenBootsForBothFacings" fullname="Changban.Tests.PlayerLocomotionPolishTests.IdleShadowStaysBetweenBootsForBothFacings" methodname="IdleShadowStaysBetweenBootsForBothFacings" classname="Changban.Tests.PlayerLocomotionPolishTests" runstate="Runnable" seed="133867005" result="Failed" start-time="2026-09-30 11:56:30Z" end-time="2026-09-30 11:56:30Z" duration="0.034562" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  The ground shadow must sit between the boots, not at the old right-boot pivot.
+  Expected: less than 0.119999997f
+  But was:  0.467190385f
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.PlayerLocomotionPolishTests+<IdleShadowStaysBetweenBootsForBothFacings>d__2.MoveNext () [0x00136] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\PlayerLocomotionPolishTests.cs:50
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+              </failure>
+              <output><![CDATA[<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+Saving results to: C:/Users/xizhongwei/AppData/LocalLow/DefaultCompany/ChangbanDemo\TestResults.xml
+Saving results to: C:/Users/xizhongwei/AppData/LocalLow/DefaultCompany/ChangbanDemo\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="14" result="Failed(Child)" total="14" passed="2" failed="12" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 13:26:00Z" end-time="2026-09-30 13:26:05Z" duration="5.0140734">
+  <test-suite type="TestSuite" id="1063" name="ChangbanDemo" fullname="ChangbanDemo" runstate="Runnable" testcasecount="46" result="Failed" site="Child" start-time="2026-09-30 13:26:00Z" end-time="2026-09-30 13:26:05Z" duration="5.014073" total="14" passed="2" failed="12" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1120" name="Changban.PlayTests.dll" fullname="E:/Desktop/codex/三国：龙胆归戈/UnityProject/Library/ScriptAssemblies/Changban.PlayTests.dll" runstate="Runnable" testcasecount="46" result="Failed" site="Child" start-time="2026-09-30 13:26:00Z" end-time="2026-09-30 13:26:05Z" duration="5.007620" total="14" passed="2" failed="12" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="3500" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1121" name="Changban" fullname="Changban" runstate="Runnable" testcasecount="46" result="Failed" site="Child" start-time="2026-09-30 13:26:00Z" end-time="2026-09-30 13:26:05Z" duration="5.007097" total="14" passed="2" failed="12" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1122" name="Tests" fullname="Changban.Tests" runstate="Runnable" testcasecount="46" result="Failed" site="Child" start-time="2026-09-30 13:26:00Z" end-time="2026-09-30 13:26:05Z" duration="5.006727" total="14" passed="2" failed="12" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1064" name="ActionFeedbackPlayTests" fullname="Changban.Tests.ActionFeedbackPlayTests" classname="Changban.Tests.ActionFeedbackPlayTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-09-30 13:26:00Z" end-time="2026-09-30 13:26:03Z" duration="3.008692" total="3" passed="0" failed="3" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1067" name="ComboFeedbackTracksExecutedStrikesRatherThanQueuedKeySpam" fullname="Changban.Tests.ActionFeedbackPlayTests.ComboFeedbackTracksExecutedStrikesRatherThanQueuedKeySpam" methodname="ComboFeedbackTracksExecutedStrikesRatherThanQueuedKeySpam" classname="Changban.Tests.ActionFeedbackPlayTests" runstate="Runnable" seed="1494045800" result="Failed" start-time="2026-09-30 13:26:00Z" end-time="2026-09-30 13:26:03Z" duration="2.923315" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Expected: not null
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.ActionFeedbackPlayTests+<ComboFeedbackTracksExecutedStrikesRatherThanQueuedKeySpam>d__4.MoveNext () [0x00054] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\ActionFeedbackPlayTests.cs:61
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1065" name="DodgeFeedbackOnlyFiresForAcceptedActions" fullname="Changban.Tests.ActionFeedbackPlayTests.DodgeFeedbackOnlyFiresForAcceptedActions" methodname="DodgeFeedbackOnlyFiresForAcceptedActions" classname="Changban.Tests.ActionFeedbackPlayTests" runstate="Runnable" seed="1836960555" result="Failed" start-time="2026-09-30 13:26:03Z" end-time="2026-09-30 13:26:03Z" duration="0.036884" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Expected: not null
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.ActionFeedbackPlayTests+<DodgeFeedbackOnlyFiresForAcceptedActions>d__2.MoveNext () [0x0004f] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\ActionFeedbackPlayTests.cs:28
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1066" name="ThrustFeedbackDoesNotRepeatDuringCooldownOrPause" fullname="Changban.Tests.ActionFeedbackPlayTests.ThrustFeedbackDoesNotRepeatDuringCooldownOrPause" methodname="ThrustFeedbackDoesNotRepeatDuringCooldownOrPause" classname="Changban.Tests.ActionFeedbackPlayTests" runstate="Runnable" seed="7101489" result="Failed" start-time="2026-09-30 13:26:03Z" end-time="2026-09-30 13:26:03Z" duration="0.038237" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Expected: not null
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.ActionFeedbackPlayTests+<ThrustFeedbackDoesNotRepeatDuringCooldownOrPause>d__3.MoveNext () [0x0004f] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\ActionFeedbackPlayTests.cs:45
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1078" name="ArrowHitFeedbackTests" fullname="Changban.Tests.ArrowHitFeedbackTests" classname="Changban.Tests.ArrowHitFeedbackTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-09-30 13:26:03Z" end-time="2026-09-30 13:26:05Z" duration="1.720999" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1079" name="ArcherReleaseAndMissKeepBowDustAndTrailWithoutHitSparksOrRedFlash" fullname="Changban.Tests.ArrowHitFeedbackTests.ArcherReleaseAndMissKeepBowDustAndTrailWithoutHitSparksOrRedFlash" methodname="ArcherReleaseAndMissKeepBowDustAndTrailWithoutHitSparksOrRedFlash" classname="Changban.Tests.ArrowHitFeedbackTests" runstate="Runnable" seed="723310508" result="Failed" start-time="2026-09-30 13:26:03Z" end-time="2026-09-30 13:26:04Z" duration="1.415047" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Shooting or missing must not emit the star-shaped hit-impact burst.
+  Expected: False
+  But was:  True
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.ArrowHitFeedbackTests+<ArcherReleaseAndMissKeepBowDustAndTrailWithoutHitSparksOrRedFlash>d__7.MoveNext () [0x00302] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\ArrowHitFeedbackTests.cs:90
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1081" name="ArrowCrossingInvulnerablePlayerDoesNotEmitHitFeedback" fullname="Changban.Tests.ArrowHitFeedbackTests.ArrowCrossingInvulnerablePlayerDoesNotEmitHitFeedback" methodname="ArrowCrossingInvulnerablePlayerDoesNotEmitHitFeedback" classname="Changban.Tests.ArrowHitFeedbackTests" runstate="Runnable" seed="218096647" result="Passed" start-time="2026-09-30 13:26:04Z" end-time="2026-09-30 13:26:04Z" duration="0.040349" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1080" name="RealArrowHitDamagesOnceAndEmitsImpactAndPlayerHurtFeedback" fullname="Changban.Tests.ArrowHitFeedbackTests.RealArrowHitDamagesOnceAndEmitsImpactAndPlayerHurtFeedback" methodname="RealArrowHitDamagesOnceAndEmitsImpactAndPlayerHurtFeedback" classname="Changban.Tests.ArrowHitFeedbackTests" runstate="Runnable" seed="172327460" result="Passed" start-time="2026-09-30 13:26:04Z" end-time="2026-09-30 13:26:05Z" duration="0.264542" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1107" name="SessionControlsPlayTests" fullname="Changban.Tests.SessionControlsPlayTests" classname="Changban.Tests.SessionControlsPlayTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-09-30 13:26:05Z" end-time="2026-09-30 13:26:05Z" duration="0.106825" total="3" passed="0" failed="3" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1110" name="ExitRequestClearsPauseAndIsObservableInEditor" fullname="Changban.Tests.SessionControlsPlayTests.ExitRequestClearsPauseAndIsObservableInEditor" methodname="ExitRequestClearsPauseAndIsObservableInEditor" classname="Changban.Tests.SessionControlsPlayTests" runstate="Runnable" seed="1198718342" result="Failed" start-time="2026-09-30 13:26:05Z" end-time="2026-09-30 13:26:05Z" duration="0.036346" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Expected: not null
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.SessionControlsPlayTests+<ExitRequestClearsPauseAndIsObservableInEditor>d__4.MoveNext () [0x00043] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\SessionControlsPlayTests.cs:75
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1108" name="PauseAndResumeOnlyChangeAnActiveBattle" fullname="Changban.Tests.SessionControlsPlayTests.PauseAndResumeOnlyChangeAnActiveBattle" methodname="PauseAndResumeOnlyChangeAnActiveBattle" classname="Changban.Tests.SessionControlsPlayTests" runstate="Runnable" seed="1821085613" result="Failed" start-time="2026-09-30 13:26:05Z" end-time="2026-09-30 13:26:05Z" duration="0.035138" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Expected: Ready
+  But was:  Paused
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.SessionControlsPlayTests+<PauseAndResumeOnlyChangeAnActiveBattle>d__2.MoveNext () [0x00026] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\SessionControlsPlayTests.cs:27
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1109" name="RestartGameFromPauseResetsAndImmediatelyStartsFreshBattle" fullname="Changban.Tests.SessionControlsPlayTests.RestartGameFromPauseResetsAndImmediatelyStartsFreshBattle" methodname="RestartGameFromPauseResetsAndImmediatelyStartsFreshBattle" classname="Changban.Tests.SessionControlsPlayTests" runstate="Runnable" seed="1705433303" result="Failed" start-time="2026-09-30 13:26:05Z" end-time="2026-09-30 13:26:05Z" duration="0.034216" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  A live battle needs a restart entry point as well as the old return-to-ready reset.
+  Expected: not null
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.SessionControlsPlayTests+<RestartGameFromPauseResetsAndImmediatelyStartsFreshBattle>d__3.MoveNext () [0x0003c] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\SessionControlsPlayTests.cs:46
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1111" name="SkillHudPlayTests" fullname="Changban.Tests.SkillHudPlayTests" classname="Changban.Tests.SkillHudPlayTests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-09-30 13:26:05Z" end-time="2026-09-30 13:26:05Z" duration="0.167361" total="5" passed="0" failed="5" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1113" name="ComboFeedbackWaitsForActualQueuedStrikeRatherThanTheExtraRequest" fullname="Changban.Tests.SkillHudPlayTests.ComboFeedbackWaitsForActualQueuedStrikeRatherThanTheExtraRequest" methodname="ComboFeedbackWaitsForActualQueuedStrikeRatherThanTheExtraRequest" classname="Changban.Tests.SkillHudPlayTests" runstate="Runnable" seed="807247810" result="Failed" start-time="2026-09-30 13:26:05Z" end-time="2026-09-30 13:26:05Z" duration="0.034825" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[SetUp :   The separate UGUI skill hint bar must be implemented.
+  Expected: not null
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.SkillHudPlayTests+<SetUp>d__5.MoveNext () [0x000be] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\SkillHudPlayTests.cs:32
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1112" name="OverlayHasThreeReadableNonInteractiveSkillHints" fullname="Changban.Tests.SkillHudPlayTests.OverlayHasThreeReadableNonInteractiveSkillHints" methodname="OverlayHasThreeReadableNonInteractiveSkillHints" classname="Changban.Tests.SkillHudPlayTests" runstate="Runnable" seed="1276557799" result="Failed" start-time="2026-09-30 13:26:05Z" end-time="2026-09-30 13:26:05Z" duration="0.032491" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[SetUp :   The separate UGUI skill hint bar must be implemented.
+  Expected: not null
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.SkillHudPlayTests+<SetUp>d__5.MoveNext () [0x000be] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\SkillHudPlayTests.cs:32
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1115" name="ReadyAndPausedPhasesCannotStartFeedbackAndPauseRemovesCurrentHighlight" fullname="Changban.Tests.SkillHudPlayTests.ReadyAndPausedPhasesCannotStartFeedbackAndPauseRemovesCurrentHighlight" methodname="ReadyAndPausedPhasesCannotStartFeedbackAndPauseRemovesCurrentHighlight" classname="Changban.Tests.SkillHudPlayTests" runstate="Runnable" seed="1033537472" result="Failed" start-time="2026-09-30 13:26:05Z" end-time="2026-09-30 13:26:05Z" duration="0.033408" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[SetUp :   The separate UGUI skill hint bar must be implemented.
+  Expected: not null
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.SkillHudPlayTests+<SetUp>d__5.MoveNext () [0x000be] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\SkillHudPlayTests.cs:32
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1116" name="ReconfigureDoesNotDuplicateCanvasOrEventSubscriptionsAndDisableUnsubscribes" fullname="Changban.Tests.SkillHudPlayTests.ReconfigureDoesNotDuplicateCanvasOrEventSubscriptionsAndDisableUnsubscribes" methodname="ReconfigureDoesNotDuplicateCanvasOrEventSubscriptionsAndDisableUnsubscribes" classname="Changban.Tests.SkillHudPlayTests" runstate="Runnable" seed="590065022" result="Failed" start-time="2026-09-30 13:26:05Z" end-time="2026-09-30 13:26:05Z" duration="0.032673" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[SetUp :   The separate UGUI skill hint bar must be implemented.
+  Expected: not null
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.SkillHudPlayTests+<SetUp>d__5.MoveNext () [0x000be] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\SkillHudPlayTests.cs:32
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1114" name="SuccessfulEvadeAndThrustFlashOnceWhileRepeatedCooldownRequestsStayQuiet" fullname="Changban.Tests.SkillHudPlayTests.SuccessfulEvadeAndThrustFlashOnceWhileRepeatedCooldownRequestsStayQuiet" methodname="SuccessfulEvadeAndThrustFlashOnceWhileRepeatedCooldownRequestsStayQuiet" classname="Changban.Tests.SkillHudPlayTests" runstate="Runnable" seed="537522293" result="Failed" start-time="2026-09-30 13:26:05Z" end-time="2026-09-30 13:26:05Z" duration="0.032511" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[SetUp :   The separate UGUI skill hint bar must be implemented.
+  Expected: not null
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at Changban.Tests.SkillHudPlayTests+<SetUp>d__5.MoveNext () [0x000be] in E:\Desktop\codex\三国：龙胆归戈\UnityProject\Assets\Game\Tests\PlayMode\SkillHudPlayTests.cs:32
+at UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\EnumeratorHelper.cs:43
+at UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs:156
+]]></stack-trace>
+              </failure>
+              <output><![CDATA[<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+Saving results to: C:/Users/xizhongwei/AppData/LocalLow/DefaultCompany/ChangbanDemo\TestResults.xml
+Saving results to: C:/Users/xizhongwei/AppData/LocalLow/DefaultCompany/ChangbanDemo\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
